@@ -1,7 +1,7 @@
 // Variable declaration
 let name = "Moe";
 let age = 31;
-let city = "Grenoble";
+let city = "Lyon";
 
 console.log("Variables declared:");
 console.log("Name:", name);
@@ -9,7 +9,7 @@ console.log("Age:", age);
 console.log("city:", city);
 
 // Reassigning value
-city = "Lyon";
+city = "Grenoble";
 console.log("\nCity modified:");
 console.log("New city:", city);
 
@@ -24,7 +24,7 @@ console.log("\nUser object created:");
 console.log(user);
 
 //Modifying a property
-user.city = "Lyon";
+user.city = "Grenoble";
 console.log("\nCity property modified:");
 console.log(user);
 
